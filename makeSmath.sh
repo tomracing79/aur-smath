@@ -1,10 +1,10 @@
 #!/bin/bash
 
-_pkgcode=LgAv2
-pkgver=1_2_9018
-pkgrel=2
+_pkgcode=nw5Lk
+pkgver=1_3_9126
+pkgrel=3
 
-wget --post-data "RefMem=&PostBack=${_pkgcode}" https://smath.com/file/${_pkgcode}/SMathStudioDesktop.${pkgver}.Mono.tar.gz
+wget --post-data "RefMem=&PostBack=${_pkgcode}" https://smath.com/en-US/file/${_pkgcode}/SMathStudioDesktop.${pkgver}.Mono.tar.gz
 
 
 _pkgmd5sum=$(md5sum SMathStudioDesktop.${pkgver}.Mono.tar.gz |awk '{ print $1 }')
