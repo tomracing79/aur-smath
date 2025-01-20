@@ -1,7 +1,7 @@
 pkgbase = smath
 	pkgdesc = A mathematical program with many features and paper-like interface, similar to Mathcad
 	pkgver = 1_3_9126
-	pkgrel = 1
+	pkgrel = 2
 	url = http://smath.info
 	install = smath.install
 	arch = i686
