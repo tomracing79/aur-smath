@@ -32,7 +32,7 @@ package() {
   install -m644 -t "$pkgdir"/opt/$pkgname/lang lang/*
   install -m644 -t "$pkgdir"/opt/$pkgname *.{dll,exe}
   install -m644 -t "$pkgdir"/opt/$pkgname/entries entries/*
-  install -m644 -t "$pkgdir"/opt/$pkgname/plugins plugins/*
+  #install -m644 -t "$pkgdir"/opt/$pkgname/plugins plugins/*
   install -m644 -t "$pkgdir"/opt/$pkgname/snippets snippets/*
 
   # create settings file
